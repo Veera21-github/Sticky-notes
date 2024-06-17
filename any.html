@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <style>
+        /* #displayArea {
+            border: 2px solid green;
+
+        } */
+        #displayArea div{
+            border: 2px solid green;
+            margin: 3px;
+            width: 15%;
+            padding: 5px;
+            display: inline-block;
+        }
+        #displayArea button {
+            
+            margin: 5px 2px;
+            height: 2vw;
+            background-color: #c59987;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sticky Notes</h1>
+    <input type="text" id="title" placeholder="Title"><br><br>
+    <input type="text" id="content" placeholder="Content"><br><br>
+    <button id="saveButton">Save</button><br>
+    <div id="displayArea"></div>
+
+    <script src="any.js"></script>
+</body>
+</html>
